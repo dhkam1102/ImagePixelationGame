@@ -6,7 +6,7 @@ import time
 pygame.init()
 
 # Load image
-image_path = 'we2.jpg'
+image_path = 'some.jpg'
 image = pygame.image.load(image_path)
 image = pygame.transform.scale(image, (600, 600))  # Scale the image to a larger size for better visibility
 
